@@ -1,13 +1,13 @@
-package com.ufpr.lol;
+package com.ms.email;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LolApplication {
+public class MsEmailApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LolApplication.class, args);
+        SpringApplication.run(MsEmailApplication.class, args);
     }
 
 }
