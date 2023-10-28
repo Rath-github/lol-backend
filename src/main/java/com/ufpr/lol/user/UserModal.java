@@ -7,7 +7,7 @@ import lombok.Data;
 
 import java.util.UUID;
 
-@Entity
+@Entity(name = "tb_user")
 @Data
 public class UserModal {
     @Id
