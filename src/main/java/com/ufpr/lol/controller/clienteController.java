@@ -1,4 +1,4 @@
-package com.ufpr.lol.crontroller;
+package com.ufpr.lol.controller;
 
 import com.ufpr.lol.modal.ClienteModal;
 import com.ufpr.lol.service.ClienteService;
