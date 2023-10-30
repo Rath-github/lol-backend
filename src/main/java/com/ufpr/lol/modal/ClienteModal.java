@@ -1,4 +1,4 @@
-package com.ufpr.lol.Modal;
+package com.ufpr.lol.modal;
 
 import jakarta.persistence.*;
 import lombok.Data;
