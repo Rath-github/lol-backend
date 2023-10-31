@@ -1,5 +1,6 @@
 package com.ufpr.lol.modal;
 
+import com.ufpr.lol.modal.FuncionarioModal;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -16,4 +17,7 @@ public class PedidoModal {
     private Date dataPedido;
     private String status; // Pode ser um enum para representar o status do pedido
 
+    @ManyToOne
+    @JoinColumn(name = "funcionario_id")
+    private FuncionarioModal funcionario;
 }
