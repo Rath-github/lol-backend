@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -20,4 +21,7 @@ public class PedidoModal {
     @ManyToOne
     @JoinColumn(name = "funcionario_id")
     private FuncionarioModal funcionario;
+
+    @OneToMany(mappedBy = "pedido")
+    private List<ItemPedido> itens;
 }
