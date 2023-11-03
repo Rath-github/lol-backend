@@ -5,7 +5,7 @@ import java.security.SecureRandom;
 public class GerarSenhas{
 
     public static String generateRandomPassword(){
-        int len = 8;
+        int len = 4;
         final String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
         SecureRandom random = new SecureRandom();
