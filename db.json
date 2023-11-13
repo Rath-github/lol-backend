@@ -1,0 +1,132 @@
+{
+  "pedidos": [
+    {
+      "pedidoNum": 1,
+      "pedidoCliente": "joao@gmail.com",
+      "pedidoRoupas": [
+        {
+          "tipo": "camiseta",
+          "quantidade": 4,
+          "tempo": 2,
+          "preco": 200
+        }
+      ],
+      "pedidoOrcamento": 200,
+      "pedidoPrazo": 2,
+      "pedidoHora": 21,
+      "pedidoDia": 8,
+      "pedidoMes": 11,
+      "pedidoAno": 2023,
+      "pedidoEstado": "RECOLHIDO",
+      "id": "1d-Zxah",
+      "pedidoRecolhido": true
+    },
+    {
+      "pedidoNum": 2,
+      "pedidoCliente": "joao@gmail.com",
+      "pedidoRoupas": [
+        {
+          "tipo": "cueca",
+          "quantidade": 9,
+          "tempo": 8,
+          "preco": 72
+        }
+      ],
+      "pedidoOrcamento": 72,
+      "pedidoPrazo": 8,
+      "pedidoHora": 21,
+      "pedidoDia": 8,
+      "pedidoMes": 11,
+      "pedidoAno": 2023,
+      "pedidoEstado": "EM ABERTO",
+      "id": "8SGaUwP"
+    }
+  ],
+  "pecas": [
+    {
+      "id": 1,
+      "nome": "calca",
+      "preco": 100,
+      "tempo": 3
+    },
+    {
+      "id": 2,
+      "nome": "camisa",
+      "preco": 50,
+      "tempo": 2
+    },
+    {
+      "id": 3,
+      "nome": "camiseta",
+      "preco": 50,
+      "tempo": 2
+    },
+    {
+      "id": 4,
+      "nome": "meia",
+      "preco": 5,
+      "tempo": 10
+    },
+    {
+      "id": 5,
+      "nome": "cueca",
+      "preco": 8,
+      "tempo": 8
+    }
+  ],
+  "Clientes": [
+    {
+      "id": 1,
+      "cpf": "123.456.789-00",
+      "nome": "João",
+      "email": "joao@gmail.com",
+      "endereco": "Rua A, 123",
+      "telefone": "(11) 1234-5678",
+      "senha": "1234"
+    },
+    {
+      "id": 2,
+      "nome": "José"
+    },
+    {
+      "id": 3,
+      "nome": "Joana"
+    },
+    {
+      "id": 4,
+      "nome": "Joaquina"
+    },
+    {
+      "cpf": "10953861902",
+      "nome": "Thiago",
+      "email": "thiagodossantos315@gmail.com",
+      "endereco": "Rua Arno",
+      "telefone": "997848601",
+      "senha": "6009",
+      "id": 5
+    }
+  ],
+  "Funcionarios": [
+    {
+      "id": 1,
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "endereco": "Rua C, 789",
+      "telefone": "10121116",
+      "senha": "1234"
+    },
+    {
+      "id": 2,
+      "nome": "Mário",
+      "email": "mario@gmail.com",
+      "endereco": "Rua C, 789",
+      "telefone": "10121116",
+      "senha": "1234"
+    }
+  ],
+  "receitas": [
+    { "data": "2023-08-01", "valor": 150 },
+    { "data": "2023-08-02", "valor": 200 },
+    { "data": "2023-08-03", "valor": 180 }
+  ]
+}
